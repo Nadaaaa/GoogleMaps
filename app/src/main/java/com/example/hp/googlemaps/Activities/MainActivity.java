@@ -1,4 +1,4 @@
-package com.example.hp.googlemaps;
+package com.example.hp.googlemaps.Activities;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.hp.googlemaps.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 

@@ -1,4 +1,4 @@
-package com.example.hp.googlemaps;
+package com.example.hp.googlemaps.Models;
 
 import android.net.Uri;
 

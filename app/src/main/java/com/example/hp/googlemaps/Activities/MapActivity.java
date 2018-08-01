@@ -1,6 +1,5 @@
-package com.example.hp.googlemaps;
+package com.example.hp.googlemaps.Activities;
 
-import android.*;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
@@ -16,16 +15,18 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hp.googlemaps.Adapters.CustomInfoWindowAdapter;
+import com.example.hp.googlemaps.Adapters.PlaceAutocompleteAdapter;
+import com.example.hp.googlemaps.Models.PlaceInfo;
+import com.example.hp.googlemaps.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;

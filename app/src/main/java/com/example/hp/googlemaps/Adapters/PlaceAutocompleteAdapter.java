@@ -1,4 +1,4 @@
-package com.example.hp.googlemaps;
+package com.example.hp.googlemaps.Adapters;
 
 /*
  * Copyright (C) 2015 Google Inc. All Rights Reserved.

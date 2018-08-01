@@ -1,10 +1,11 @@
-package com.example.hp.googlemaps;
+package com.example.hp.googlemaps.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.hp.googlemaps.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
 
